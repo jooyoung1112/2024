@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7fa;
+  cursor: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='45' height='45' viewBox='0 0 21.61 22.77'%3E%3Cpath d='M16.57,16.15A9,9,0,1,0,15,17.46h0l6.25,6.25,1.42-1.42Zm-3-.14a7.07,7.07,0,1,1,1.56-1.28A7,7,0,0,1,13.59,16Z' transform='translate(-1.06 -0.94)'/%3E%3C/svg%3E), pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+::selection {
+  /* background-color: #d2ffe4; */
+  background-color: #d5f7ba;
+  background-color: #bdf9f9;
+  /* background-color: #fbfc96; */
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+header {
+  width: 100%;
+  /* background-color: aqua; */
+  background-color:  #f7f7fa;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+#header_wrap {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: #000000 solid 0.1px;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+header span {
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 11px;
+  font-weight: 200;
+}
+header a {
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#header_left,
+#header_right {
+  float: left;
+}
+
+#header_right {
+  float: right;
+}
+
+#wrap_center {
+  position: relative;
+  top: 180px;
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: lavender; */
+}
+
+
+.accessaries3{
+  width: 100%;
+  padding-bottom: 30px;
+  /* border-bottom: #000000 solid 0.1px; */
+}
+
+.accessaries3 li{
+  width: 30%;
+  overflow: hidden;
+  margin-left: 4.75%;
+  float: left;
+  position: relative;
+  margin-top: 80px;
+  cursor: pointer;
+  overflow: hidden;
+}
+ 
+ 
+.accessaries3 li:nth-child(3n+1){
+  margin-left: 0;
+}
+
+.accessaries3 img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.accessaries3 img:hover{
+  transform: scale(1.01);
+  transition: 0.3s linear;
+}
+
+
+.text_box h2{
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.text_box h3{
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  width: 100%;
+  text-align: left;
+}
+
+.text_box{
+  width: 100%;
+  /* position: absolute; */
+  /* top: 180px; */
+
+}
