@@ -157,7 +157,18 @@ h2 {
   margin-top:2px;
 }
   
- 
+ #project_class .img_wrap{
+  background-image: url("../img/modulabs2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#designsystem .img_wrap{
+  background-image: url("../img/20.png");
+  background-position: center;
+  background-size: cover;
+}
+
 
 #project_tlooto_ux .img_wrap{
   background-image: url("../img/tlooto_research.jpeg");
@@ -233,6 +244,11 @@ img:hover{
 li{
   overflow: hidden;
 }
+
+#first_row{
+  margin-top: 120px;
+}
+
 
 #second_row{
   margin-top: 120px;
